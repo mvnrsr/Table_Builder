@@ -1,0 +1,40 @@
+'--- g_BRAND_CONSIDERATION[..].BRAND_CONSIDERATION_1
+fnAddGrid(TableDoc,"g_BRAND_CONSIDERATION[..].BRAND_CONSIDERATION_1","g_BRAND_CONSIDERATION 'Brand Consideration'","(g_BRAND_CONSIDERATION) Brand Consideration - Summary","nan")
+For each i in MDM.Fields["g_BRAND_CONSIDERATION"].categories
+	fnAddTable(TableDoc,"g_BRAND_CONSIDERATION[{" + i.name + "}].BRAND_CONSIDERATION_1",banner,"(g_BRAND_CONSIDERATION) Brand Consideration - " + i.label,"nan")
+	''.Item[.count-1].Rules.Addnew(0,0)
+next
+
+
+'--- g_OVERALL_RATING_JBCSW[..].OVERALL_RATING_JBCSW_1
+fnAddGrid(TableDoc,"g_OVERALL_RATING_JBCSW[..].OVERALL_RATING_JBCSW_1","g_OVERALL_RATING_JBCSW 'Overall Rating on Jollibee Chicken Sandwich'","(g_OVERALL_RATING_JBCSW) Overall Rating on Jollibee Chicken Sandwich - Summary","nan")
+For each i in MDM.Fields["g_OVERALL_RATING_JBCSW"].categories
+	fnAddTable(TableDoc,"g_OVERALL_RATING_JBCSW[{" + i.name + "}].OVERALL_RATING_JBCSW_1",banner,"(g_OVERALL_RATING_JBCSW) Overall Rating on Jollibee Chicken Sandwich - " + i.label,"nan")
+	''.Item[.count-1].Rules.Addnew(0,0)
+next
+
+
+'--- g_Ratings_JBCSW[..].RATINGS_JBCSW_1
+fnAddGrid(TableDoc,"g_Ratings_JBCSW[..].RATINGS_JBCSW_1","g_Ratings_JBCSW 'Ratings on Product Attributes'","(g_Ratings_JBCSW) Ratings on Product Attributes - Summary","nan")
+For each i in MDM.Fields["g_Ratings_JBCSW"].categories
+	fnAddTable(TableDoc,"g_Ratings_JBCSW[{" + i.name + "}].RATINGS_JBCSW_1",banner,"(g_Ratings_JBCSW) Ratings on Product Attributes - " + i.label,"nan")
+	''.Item[.count-1].Rules.Addnew(0,0)
+next
+
+
+'--- g_ATTITUDES_CSW[..].ATTITUDES_CSW_1
+fnAddGrid(TableDoc,"g_ATTITUDES_CSW[..].ATTITUDES_CSW_1","g_ATTITUDES_CSW 'Attitudes on Chicken Sandwich'","(g_ATTITUDES_CSW) Attitudes on Chicken Sandwich - Summary","nan")
+For each i in MDM.Fields["g_ATTITUDES_CSW"].categories
+	fnAddTable(TableDoc,"g_ATTITUDES_CSW[{" + i.name + "}].ATTITUDES_CSW_1",banner,"(g_ATTITUDES_CSW) Attitudes on Chicken Sandwich - " + i.label,"nan")
+	''.Item[.count-1].Rules.Addnew(0,0)
+next
+
+
+'--- g_Budget_Premium_Consideration[..].BUDGET_PREMIUM_CONSIDERATION_1
+fnAddGrid(TableDoc,"g_Budget_Premium_Consideration[..].BUDGET_PREMIUM_CONSIDERATION_1","g_Budget_Premium_Consideration 'Consideration on Premium Chicken Sandwich'","(g_Budget_Premium_Consideration) Consideration on Premium Chicken Sandwich - Summary","nan")
+For each i in MDM.Fields["g_Budget_Premium_Consideration"].categories
+	fnAddTable(TableDoc,"g_Budget_Premium_Consideration[{" + i.name + "}].BUDGET_PREMIUM_CONSIDERATION_1",banner,"(g_Budget_Premium_Consideration) Consideration on Premium Chicken Sandwich - " + i.label,"nan")
+	''.Item[.count-1].Rules.Addnew(0,0)
+next
+
+

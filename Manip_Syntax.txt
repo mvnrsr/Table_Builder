@@ -1,0 +1,375 @@
+'--- MUN
+	sbSetTitleText(MDM,"MUN","Analysis",LOCALE,"(MUN) City or Municipality")
+	sbSetAxisExpression(MDM,"MUN","{..,sigma 'Total' subtotal()}")
+
+
+'--- LANGUAGE
+	sbSetTitleText(MDM,"LANGUAGE","Analysis",LOCALE,"(LANGUAGE) Language")
+	sbSetAxisExpression(MDM,"LANGUAGE","{..,sigma 'Total' subtotal()}")
+
+
+'--- GENDER
+	sbSetTitleText(MDM,"GENDER","Analysis",LOCALE,"(GENDER) Gender")
+	sbSetAxisExpression(MDM,"GENDER","{..,sigma 'Total' subtotal()}")
+
+
+'--- QLABEL_EA
+	sbSetTitleText(MDM,"QLABEL_EA","Analysis",LOCALE,"(QLABEL_EA) QUESTION LABEL FOR EXACT AGE")
+	sbSetAxisExpression(MDM,"QLABEL_EA","{..,sigma 'Total' subtotal()}")
+
+
+'--- EXACT_AGE
+	sbSetTitleText(MDM,"EXACT_AGE","Analysis",LOCALE,"(EXACT_AGE) Age")
+	sbSetAxisExpression(MDM,"EXACT_AGE","{..,sigma 'Total' subtotal()}")
+
+
+'--- LIV_ARR
+	sbSetTitleText(MDM,"LIV_ARR","Analysis",LOCALE,"(LIV_ARR) Living Arrangement")
+	sbSetAxisExpression(MDM,"LIV_ARR","{..,sigma 'Total' subtotal()}")
+
+
+'--- STATUS
+	sbSetTitleText(MDM,"STATUS","Analysis",LOCALE,"(STATUS) Marital Status")
+	sbSetAxisExpression(MDM,"STATUS","{..,sigma 'Total' subtotal()}")
+
+
+'--- NC
+	sbSetTitleText(MDM,"NC","Analysis",LOCALE,"(NC) Number of Children")
+	sbSetAxisExpression(MDM,"NC","{..,sigma 'Total' subtotal()}")
+
+
+'--- WORKING_STATUS
+	sbSetTitleText(MDM,"WORKING_STATUS","Analysis",LOCALE,"(WORKING_STATUS) Working Status")
+	sbSetAxisExpression(MDM,"WORKING_STATUS","{..,sigma 'Total' subtotal()}")
+
+
+'--- OCCUPATION_SCR
+	sbSetTitleText(MDM,"OCCUPATION_SCR","Analysis",LOCALE,"(OCCUPATION_SCR) Occupational Screener")
+	sbSetAxisExpression(MDM,"OCCUPATION_SCR","{..,sigma 'Total' subtotal()}")
+
+
+'--- PDM
+	sbSetTitleText(MDM,"PDM","Analysis",LOCALE,"(PDM) Purchase Decision Maker")
+	sbSetAxisExpression(MDM,"PDM","{..,sigma 'Total' subtotal()}")
+
+
+'--- NEIGHBORHOOD
+	sbSetTitleText(MDM,"NEIGHBORHOOD","Analysis",LOCALE,"(NEIGHBORHOOD) FI to assess respondent&apos;s neighborhood. </font><font color=&apos;#008000&apos;>Do not show screen to respondent</font>")
+	sbSetAxisExpression(MDM,"NEIGHBORHOOD","{..,sigma 'Total' subtotal()}")
+
+
+'--- NEIGHBORHOOD_TAGGING
+	sbSetTitleText(MDM,"NEIGHBORHOOD_TAGGING","Analysis",LOCALE,"(NEIGHBORHOOD_TAGGING) NEIGHBORHOOD TAGGING")
+	sbSetAxisExpression(MDM,"NEIGHBORHOOD_TAGGING","{..,sigma 'Total' subtotal()}")
+
+
+'--- DURABILITY
+	sbSetTitleText(MDM,"DURABILITY","Analysis",LOCALE,"(DURABILITY) <i>FI to assess respondent&apos;s home durability.</i> </font><font color=&apos;#008000&apos;>Do not show screen to respondent</font>")
+	sbSetAxisExpression(MDM,"DURABILITY","{..,sigma 'Total' subtotal()}")
+
+
+'--- DURABILITY_TAGGING
+	sbSetTitleText(MDM,"DURABILITY_TAGGING","Analysis",LOCALE,"(DURABILITY_TAGGING) DURABILITY TAGGING")
+	sbSetAxisExpression(MDM,"DURABILITY_TAGGING","{..,sigma 'Total' subtotal()}")
+
+
+'--- HOME_MAINTENANCE
+	sbSetTitleText(MDM,"HOME_MAINTENANCE","Analysis",LOCALE,"(HOME_MAINTENANCE) FI to assess respondent&apos;s home maintenance. </font><font color=&apos;#008000&apos;>Do not show screen to respondent</font>")
+	sbSetAxisExpression(MDM,"HOME_MAINTENANCE","{..,sigma 'Total' subtotal()}")
+
+
+'--- HM_TAGGING
+	sbSetTitleText(MDM,"HM_TAGGING","Analysis",LOCALE,"(HM_TAGGING) HOME MAINTENANCE TAGGING")
+	sbSetAxisExpression(MDM,"HM_TAGGING","{..,sigma 'Total' subtotal()}")
+
+
+'--- EDUCATIONAL_ATTAINMENT
+	sbSetTitleText(MDM,"EDUCATIONAL_ATTAINMENT","Analysis",LOCALE,"(EDUCATIONAL_ATTAINMENT) What is the highest educational attainment of the household head? </font><font color=&apos;#008000&apos;>NOTE to FI: Do not show screen to respondent</font>")
+	sbSetAxisExpression(MDM,"EDUCATIONAL_ATTAINMENT","{..,sigma 'Total' subtotal()}")
+
+
+'--- OCCUPATION_HH
+	sbSetTitleText(MDM,"OCCUPATION_HH","Analysis",LOCALE,"(OCCUPATION_HH) What is the occupation of the household head? </font><font color=&apos;#008000&apos;>NOTE to FI: Do not show screen to respondent</font>")
+	sbSetAxisExpression(MDM,"OCCUPATION_HH","{..,sigma 'Total' subtotal()}")
+
+
+'--- HH_FAC
+	sbSetTitleText(MDM,"HH_FAC","Analysis",LOCALE,"(HH_FAC) HOUSEHOLD FACILITIES")
+	sbSetAxisExpression(MDM,"HH_FAC","{..,sigma 'Total' subtotal()}")
+
+
+'--- KUS_WATER
+	sbSetTitleText(MDM,"KUS_WATER","Analysis",LOCALE,"(KUS_WATER) SOURCE OF WATER")
+	sbSetAxisExpression(MDM,"KUS_WATER","{..,sigma 'Total' subtotal()}")
+
+
+'--- TAGGING_KUS_WATER
+	sbSetTitleText(MDM,"TAGGING_KUS_WATER","Analysis",LOCALE,"(TAGGING_KUS_WATER) TAGGING KUS WATER")
+	sbSetAxisExpression(MDM,"TAGGING_KUS_WATER","{..,sigma 'Total' subtotal()}")
+
+
+'--- ELECTRIC
+	sbSetTitleText(MDM,"ELECTRIC","Analysis",LOCALE,"(ELECTRIC) In your household, how much is your monthly electric bill (on average)?")
+	sbSetAxisExpression(MDM,"ELECTRIC","{..,sigma 'Total' subtotal()}")
+
+
+'--- HELP_FOLLOWUP
+	sbSetTitleText(MDM,"HELP_FOLLOWUP","Analysis",LOCALE,"(HELP_FOLLOWUP) How many Household Help (i.e. cook, maid, driver) do you have?")
+	sbSetAxisExpression(MDM,"HELP_FOLLOWUP","{..,sigma 'Total' subtotal()}")
+
+
+'--- MHI
+	sbSetTitleText(MDM,"MHI","Analysis",LOCALE,"(MHI) What is your gross monthly household income? </font><font color=&apos;#008000&apos;><i>Consider <b><u>ALL</u></b> earning household members</i></font>")
+	sbSetAxisExpression(MDM,"MHI","{..,sigma 'Total' subtotal()}")
+
+
+'--- FINAL_SEC
+	sbSetTitleText(MDM,"FINAL_SEC","Analysis",LOCALE,"(FINAL_SEC) FI to assess based on final judgment </font><font color=&apos;#008000&apos;>Do not show screen to respondent</font>")
+	sbSetAxisExpression(MDM,"FINAL_SEC","{..,sigma 'Total' subtotal()}")
+
+
+'--- BEO_USAGE_P12M
+	sbSetTitleText(MDM,"BEO_USAGE_P12M","Analysis",LOCALE,"(BEO_USAGE_P12M) Total Eat-Out Usage of BEO CHICKEN SANDWICH, P12M")
+	sbSetAxisExpression(MDM,"BEO_USAGE_P12M","{..,sigma 'Total' subtotal()}")
+
+
+'--- BEO_USAGE_P6M
+	sbSetTitleText(MDM,"BEO_USAGE_P6M","Analysis",LOCALE,"(BEO_USAGE_P6M) Total Eat-Out Usage of BEO CHICKEN SANDWICH, P6M")
+	sbSetAxisExpression(MDM,"BEO_USAGE_P6M","{..,sigma 'Total' subtotal()}")
+
+
+'--- BEO_USAGE_P3M
+	sbSetTitleText(MDM,"BEO_USAGE_P3M","Analysis",LOCALE,"(BEO_USAGE_P3M) Total Eat-Out Usage of BEO CHICKEN SANDWICH, P3M")
+	sbSetAxisExpression(MDM,"BEO_USAGE_P3M","{..,sigma 'Total' subtotal()}")
+
+
+'--- BEO_USAGE_P4W
+	sbSetTitleText(MDM,"BEO_USAGE_P4W","Analysis",LOCALE,"(BEO_USAGE_P4W) Total Eat-Out Usage of BEO CHICKEN SANDWICH, P4W")
+	sbSetAxisExpression(MDM,"BEO_USAGE_P4W","{..,sigma 'Total' subtotal()}")
+
+
+'--- CATEGORY_TRIGGERS
+	sbSetTitleText(MDM,"CATEGORY_TRIGGERS","Analysis",LOCALE,"(CATEGORY_TRIGGERS) Category Triggers")
+	sbSetAxisExpression(MDM,"CATEGORY_TRIGGERS","{..,sigma 'Total' subtotal()}")
+
+
+'--- CATEGORY_BARRIERS
+	sbSetTitleText(MDM,"CATEGORY_BARRIERS","Analysis",LOCALE,"(CATEGORY_BARRIERS) Category Barriers")
+	sbSetAxisExpression(MDM,"CATEGORY_BARRIERS","{..,sigma 'Total' subtotal()}")
+
+
+'--- CATEGORY_FREQUENCY
+	sbSetTitleText(MDM,"CATEGORY_FREQUENCY","Analysis",LOCALE,"(CATEGORY_FREQUENCY) Category Frequency")
+	sbSetAxisExpression(MDM,"CATEGORY_FREQUENCY","{..,sigma 'Total' subtotal(),mean 'Mean' mean(??) [decimals=2]}")
+
+
+'--- CATEGORY_CHANNELS
+	sbSetTitleText(MDM,"CATEGORY_CHANNELS","Analysis",LOCALE,"(CATEGORY_CHANNELS) Category Purchase Channel")
+	sbSetAxisExpression(MDM,"CATEGORY_CHANNELS","{..,sigma 'Total' subtotal()}")
+
+
+'--- CATEGORY_OCCASIONS
+	sbSetTitleText(MDM,"CATEGORY_OCCASIONS","Analysis",LOCALE,"(CATEGORY_OCCASIONS) Category Occasions")
+	sbSetAxisExpression(MDM,"CATEGORY_OCCASIONS","{..,sigma 'Total' subtotal()}")
+
+
+'--- NBS_BEO
+	sbSetTitleText(MDM,"NBS_BEO","Analysis",LOCALE,"(NBS_BEO) Need based Salience BEO FRIED CHICKEN")
+	sbSetAxisExpression(MDM,"NBS_BEO","{..,sigma 'Total' subtotal()}")
+
+
+'--- UN_AWARE
+	sbSetTitleText(MDM,"UN_AWARE","Analysis",LOCALE,"(UN_AWARE) Unaided Brand Awareness")
+	sbSetAxisExpression(MDM,"UN_AWARE","{..,sigma 'Total' subtotal()}")
+
+
+'--- TOM_UN_WARE.coding
+	sbSetTitleText(MDM,"TOM_UN_WARE.coding","Analysis",LOCALE,"(TOM_UN_WARE.coding) TOP OF MIND FOR UNAWARE")
+	sbSetAxisExpression(MDM,"TOM_UN_WARE.coding","{..,sigma 'Total' subtotal()}")
+
+
+'--- AWARE_MOTHERBRAND
+	sbSetTitleText(MDM,"AWARE_MOTHERBRAND","Analysis",LOCALE,"(AWARE_MOTHERBRAND) Aided Brand Awareness (Mother Brand)")
+	sbSetAxisExpression(MDM,"AWARE_MOTHERBRAND","{..,sigma 'Total' subtotal()}")
+
+
+'--- AWARE_VARIANT
+	sbSetTitleText(MDM,"AWARE_VARIANT","Analysis",LOCALE,"(AWARE_VARIANT) Aided Brand Awareness (Variant-level)")
+	sbSetAxisExpression(MDM,"AWARE_VARIANT","{..,sigma 'Total' subtotal()}")
+
+
+'--- EVER_USED
+	sbSetTitleText(MDM,"EVER_USED","Analysis",LOCALE,"(EVER_USED) Brand ever used")
+	sbSetAxisExpression(MDM,"EVER_USED","{..,sigma 'Total' subtotal()}")
+
+
+'--- BRAND_USE_P12M
+	sbSetTitleText(MDM,"BRAND_USE_P12M","Analysis",LOCALE,"(BRAND_USE_P12M) Total BRAND Usage, P12M")
+	sbSetAxisExpression(MDM,"BRAND_USE_P12M","{..,sigma 'Total' subtotal()}")
+
+
+'--- BRAND_USE_P6M
+	sbSetTitleText(MDM,"BRAND_USE_P6M","Analysis",LOCALE,"(BRAND_USE_P6M) Total BRAND Usage, P6M")
+	sbSetAxisExpression(MDM,"BRAND_USE_P6M","{..,sigma 'Total' subtotal()}")
+
+
+'--- BRAND_USE_P3M
+	sbSetTitleText(MDM,"BRAND_USE_P3M","Analysis",LOCALE,"(BRAND_USE_P3M) Total BRAND Usage, P3M")
+	sbSetAxisExpression(MDM,"BRAND_USE_P3M","{..,sigma 'Total' subtotal()}")
+
+
+'--- BRAND_USE_P4W
+	sbSetTitleText(MDM,"BRAND_USE_P4W","Analysis",LOCALE,"(BRAND_USE_P4W) Total BRAND Usage, P4W")
+	sbSetAxisExpression(MDM,"BRAND_USE_P4W","{..,sigma 'Total' subtotal()}")
+
+
+'--- BUMO_BRAND
+	sbSetTitleText(MDM,"BUMO_BRAND","Analysis",LOCALE,"(BUMO_BRAND) Brands Used Most Often")
+	sbSetAxisExpression(MDM,"BUMO_BRAND","{..,sigma 'Total' subtotal()}")
+
+
+'--- REASON_BUMO
+	sbSetTitleText(MDM,"REASON_BUMO","Analysis",LOCALE,"(REASON_BUMO) Reasons for BUMO")
+	sbSetAxisExpression(MDM,"REASON_BUMO","{..,sigma 'Total' subtotal()}")
+
+
+'--- BUMO_NOT_AV
+	sbSetTitleText(MDM,"BUMO_NOT_AV","Analysis",LOCALE,"(BUMO_NOT_AV) BUMO not available")
+	sbSetAxisExpression(MDM,"BUMO_NOT_AV","{..,sigma 'Total' subtotal()}")
+
+
+'--- Q715201
+	sbSetTitleText(MDM,"Q715201","Analysis",LOCALE,"(Q715201) QUESTION LABEL FOR BUMO NOT AV FF")
+	sbSetAxisExpression(MDM,"Q715201","{..,sigma 'Total' subtotal()}")
+
+
+'--- Q715202
+	sbSetTitleText(MDM,"Q715202","Analysis",LOCALE,"(Q715202) ANSWER LIST FOR BUMO NO AV FF")
+	sbSetAxisExpression(MDM,"Q715202","{..,sigma 'Total' subtotal()}")
+
+
+'--- BUMO_NOT_AV_FF
+	sbSetTitleText(MDM,"BUMO_NOT_AV_FF","Analysis",LOCALE,"(BUMO_NOT_AV_FF) BUMO not available follow up")
+	sbSetAxisExpression(MDM,"BUMO_NOT_AV_FF","{..,sigma 'Total' subtotal()}")
+
+
+'--- FAV_BRAND
+	sbSetTitleText(MDM,"FAV_BRAND","Analysis",LOCALE,"(FAV_BRAND) Favorite Brand")
+	sbSetAxisExpression(MDM,"FAV_BRAND","{..,sigma 'Total' subtotal()}")
+
+
+'--- REASON_FAV
+	sbSetTitleText(MDM,"REASON_FAV","Analysis",LOCALE,"(REASON_FAV) Reasons for Favorite")
+	sbSetAxisExpression(MDM,"REASON_FAV","{..,sigma 'Total' subtotal()}")
+
+
+'--- TRIGGERS_BRAND
+	sbSetTitleText(MDM,"TRIGGERS_BRAND","Analysis",LOCALE,"(TRIGGERS_BRAND) Triggers for PURCHASING and CONSUMING BRAND CHICKEN BURGER / SANDWICH")
+	sbSetAxisExpression(MDM,"TRIGGERS_BRAND","{..,sigma 'Total' subtotal()}")
+
+
+'--- FREQUENCY_BRAND_1
+	sbSetTitleText(MDM,"FREQUENCY_BRAND_1","Analysis",LOCALE,"(FREQUENCY_BRAND_1) Frequency of CONSUMING")
+	sbSetAxisExpression(MDM,"FREQUENCY_BRAND_1","{..,sigma 'Total' subtotal()}")
+
+
+'--- BBLAST
+	sbSetTitleText(MDM,"BBLAST","Analysis",LOCALE,"(BBLAST) Brand Ate Last")
+	sbSetAxisExpression(MDM,"BBLAST","{..,sigma 'Total' subtotal()}")
+
+
+'--- BBLAST_CHANNEL
+	sbSetTitleText(MDM,"BBLAST_CHANNEL","Analysis",LOCALE,"(BBLAST_CHANNEL) Brand Purchase Channel")
+	sbSetAxisExpression(MDM,"BBLAST_CHANNEL","{..,sigma 'Total' subtotal()}")
+
+
+'--- BBLAST_COMPANION
+	sbSetTitleText(MDM,"BBLAST_COMPANION","Analysis",LOCALE,"(BBLAST_COMPANION) Companion while CONSUMING [BRAND]")
+	sbSetAxisExpression(MDM,"BBLAST_COMPANION","{..,sigma 'Total' subtotal()}")
+
+
+'--- BBLAST_SPEND
+	sbSetTitleText(MDM,"BBLAST_SPEND","Analysis",LOCALE,"(BBLAST_SPEND) Usual Spending (BRAND)")
+	sbSetAxisExpression(MDM,"BBLAST_SPEND","{..,sigma 'Total' subtotal()}")
+
+
+'--- NTC_BBPR
+	sbSetTitleText(MDM,"NTC_BBPR","Analysis",LOCALE,"(NTC_BBPR) nan")
+	sbSetAxisExpression(MDM,"NTC_BBPR","{..,sigma 'Total' subtotal()}")
+
+
+'--- BBLAST_PAIRING
+	sbSetTitleText(MDM,"BBLAST_PAIRING","Analysis",LOCALE,"(BBLAST_PAIRING) BEO Chicken Sandwich Pairing")
+	sbSetAxisExpression(MDM,"BBLAST_PAIRING","{..,sigma 'Total' subtotal()}")
+
+
+'--- BBLAST_OCCASION
+	sbSetTitleText(MDM,"BBLAST_OCCASION","Analysis",LOCALE,"(BBLAST_OCCASION) Brand Occasion")
+	sbSetAxisExpression(MDM,"BBLAST_OCCASION","{..,sigma 'Total' subtotal()}")
+
+
+'--- g_BRAND_CONSIDERATION[..].BRAND_CONSIDERATION_1
+	sbSetTitleText(MDM,"g_BRAND_CONSIDERATION[..].BRAND_CONSIDERATION_1","Analysis",LOCALE,"(g_BRAND_CONSIDERATION[..].BRAND_CONSIDERATION_1) Brand Consideration")
+	sbSetAxisExpression(MDM,"g_BRAND_CONSIDERATION[..].BRAND_CONSIDERATION_1","{..,sigma 'Total' subtotal()}")
+
+
+'--- BRAND_LAPSERS
+	sbSetTitleText(MDM,"BRAND_LAPSERS","Analysis",LOCALE,"(BRAND_LAPSERS) Reason for Lapsed Usage of CHICKEN BURGER / SANDWICH PRODUCTS P3M")
+	sbSetAxisExpression(MDM,"BRAND_LAPSERS","{..,sigma 'Total' subtotal()}")
+
+
+'--- BRAND_BARRIERS_P12M
+	sbSetTitleText(MDM,"BRAND_BARRIERS_P12M","Analysis",LOCALE,"(BRAND_BARRIERS_P12M) Reasons for not Eating CHICKEN BURGER / SANDWICH in P12M")
+	sbSetAxisExpression(MDM,"BRAND_BARRIERS_P12M","{..,sigma 'Total' subtotal()}")
+
+
+'--- IMA_IMPORTANCE
+	sbSetTitleText(MDM,"IMA_IMPORTANCE","Analysis",LOCALE,"(IMA_IMPORTANCE) Imagery – Importance of attributes")
+	sbSetAxisExpression(MDM,"IMA_IMPORTANCE","{..,sigma 'Total' subtotal()}")
+
+
+'--- IMAGERY
+	sbSetTitleText(MDM,"IMAGERY","Analysis",LOCALE,"(IMAGERY) Brand Imagery")
+	sbSetAxisExpression(MDM,"IMAGERY","{..,sigma 'Total' subtotal()}")
+
+
+'--- g_OVERALL_RATING_JBCSW[..].OVERALL_RATING_JBCSW_1
+	sbSetTitleText(MDM,"g_OVERALL_RATING_JBCSW[..].OVERALL_RATING_JBCSW_1","Analysis",LOCALE,"(g_OVERALL_RATING_JBCSW[..].OVERALL_RATING_JBCSW_1) Overall Rating on Jollibee Chicken Sandwich")
+	sbSetAxisExpression(MDM,"g_OVERALL_RATING_JBCSW[..].OVERALL_RATING_JBCSW_1","{..,sigma 'Total' subtotal()}")
+
+
+'--- LIKES_JBCSW.coding
+	sbSetTitleText(MDM,"LIKES_JBCSW.coding","Analysis",LOCALE,"(LIKES_JBCSW.coding) nan")
+	sbSetAxisExpression(MDM,"LIKES_JBCSW.coding","{..,sigma 'Total' subtotal()}")
+
+
+'--- DISLIKES_JBCSW.coding
+	sbSetTitleText(MDM,"DISLIKES_JBCSW.coding","Analysis",LOCALE,"(DISLIKES_JBCSW.coding) nan")
+	sbSetAxisExpression(MDM,"DISLIKES_JBCSW.coding","{..,sigma 'Total' subtotal()}")
+
+
+'--- g_Ratings_JBCSW[..].RATINGS_JBCSW_1
+	sbSetTitleText(MDM,"g_Ratings_JBCSW[..].RATINGS_JBCSW_1","Analysis",LOCALE,"(g_Ratings_JBCSW[..].RATINGS_JBCSW_1) Ratings on Product Attributes")
+	sbSetAxisExpression(MDM,"g_Ratings_JBCSW[..].RATINGS_JBCSW_1","{..,sigma 'Total' subtotal()}")
+
+
+'--- g_ATTITUDES_CSW[..].ATTITUDES_CSW_1
+	sbSetTitleText(MDM,"g_ATTITUDES_CSW[..].ATTITUDES_CSW_1","Analysis",LOCALE,"(g_ATTITUDES_CSW[..].ATTITUDES_CSW_1) Attitudes on Chicken Sandwich")
+	sbSetAxisExpression(MDM,"g_ATTITUDES_CSW[..].ATTITUDES_CSW_1","{..,sigma 'Total' subtotal()}")
+
+
+'--- PREMIUM_CHARACTERISTICS.coding
+	sbSetTitleText(MDM,"PREMIUM_CHARACTERISTICS.coding","Analysis",LOCALE,"(PREMIUM_CHARACTERISTICS.coding) nan")
+	sbSetAxisExpression(MDM,"PREMIUM_CHARACTERISTICS.coding","{..,sigma 'Total' subtotal()}")
+
+
+'--- BUDGET_CHARACTERISTICS.coding
+	sbSetTitleText(MDM,"BUDGET_CHARACTERISTICS.coding","Analysis",LOCALE,"(BUDGET_CHARACTERISTICS.coding) nan")
+	sbSetAxisExpression(MDM,"BUDGET_CHARACTERISTICS.coding","{..,sigma 'Total' subtotal()}")
+
+
+'--- g_Budget_Premium_Consideration[..].BUDGET_PREMIUM_CONSIDERATION_1
+	sbSetTitleText(MDM,"g_Budget_Premium_Consideration[..].BUDGET_PREMIUM_CONSIDERATION_1","Analysis",LOCALE,"(g_Budget_Premium_Consideration[..].BUDGET_PREMIUM_CONSIDERATION_1) Consideration on Premium Chicken Sandwich")
+	sbSetAxisExpression(MDM,"g_Budget_Premium_Consideration[..].BUDGET_PREMIUM_CONSIDERATION_1","{..,sigma 'Total' subtotal()}")
+
+

@@ -1,0 +1,210 @@
+	fnAddTable(TableDoc,"MUN {..,sigma 'Total' subtotal()}",banner,"(MUN) City or Municipality","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"LANGUAGE {..,sigma 'Total' subtotal()}",banner,"(LANGUAGE) Language","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"GENDER {..,sigma 'Total' subtotal()}",banner,"(GENDER) Gender","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"QLABEL_EA {..,sigma 'Total' subtotal()}",banner,"(QLABEL_EA) QUESTION LABEL FOR EXACT AGE","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"EXACT_AGE {..,sigma 'Total' subtotal()}",banner,"(EXACT_AGE) Age","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"LIV_ARR {..,sigma 'Total' subtotal()}",banner,"(LIV_ARR) Living Arrangement","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"STATUS {..,sigma 'Total' subtotal()}",banner,"(STATUS) Marital Status","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"NC {..,sigma 'Total' subtotal()}",banner,"(NC) Number of Children","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"WORKING_STATUS {..,sigma 'Total' subtotal()}",banner,"(WORKING_STATUS) Working Status","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"OCCUPATION_SCR {..,sigma 'Total' subtotal()}",banner,"(OCCUPATION_SCR) Occupational Screener","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"PDM {..,sigma 'Total' subtotal()}",banner,"(PDM) Purchase Decision Maker","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"NEIGHBORHOOD {..,sigma 'Total' subtotal()}",banner,"(NEIGHBORHOOD) FI to assess respondent&apos;s neighborhood. </font><font color=&apos;#008000&apos;>Do not show screen to respondent</font>","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"NEIGHBORHOOD_TAGGING {..,sigma 'Total' subtotal()}",banner,"(NEIGHBORHOOD_TAGGING) NEIGHBORHOOD TAGGING","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"DURABILITY {..,sigma 'Total' subtotal()}",banner,"(DURABILITY) <i>FI to assess respondent&apos;s home durability.</i> </font><font color=&apos;#008000&apos;>Do not show screen to respondent</font>","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"DURABILITY_TAGGING {..,sigma 'Total' subtotal()}",banner,"(DURABILITY_TAGGING) DURABILITY TAGGING","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"HOME_MAINTENANCE {..,sigma 'Total' subtotal()}",banner,"(HOME_MAINTENANCE) FI to assess respondent&apos;s home maintenance. </font><font color=&apos;#008000&apos;>Do not show screen to respondent</font>","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"HM_TAGGING {..,sigma 'Total' subtotal()}",banner,"(HM_TAGGING) HOME MAINTENANCE TAGGING","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"EDUCATIONAL_ATTAINMENT {..,sigma 'Total' subtotal()}",banner,"(EDUCATIONAL_ATTAINMENT) What is the highest educational attainment of the household head? </font><font color=&apos;#008000&apos;>NOTE to FI: Do not show screen to respondent</font>","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"OCCUPATION_HH {..,sigma 'Total' subtotal()}",banner,"(OCCUPATION_HH) What is the occupation of the household head? </font><font color=&apos;#008000&apos;>NOTE to FI: Do not show screen to respondent</font>","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"HH_FAC {..,sigma 'Total' subtotal()}",banner,"(HH_FAC) HOUSEHOLD FACILITIES","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"KUS_WATER {..,sigma 'Total' subtotal()}",banner,"(KUS_WATER) SOURCE OF WATER","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"TAGGING_KUS_WATER {..,sigma 'Total' subtotal()}",banner,"(TAGGING_KUS_WATER) TAGGING KUS WATER","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"ELECTRIC {..,sigma 'Total' subtotal()}",banner,"(ELECTRIC) In your household, how much is your monthly electric bill (on average)?","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"HELP_FOLLOWUP {..,sigma 'Total' subtotal()}",banner,"(HELP_FOLLOWUP) How many Household Help (i.e. cook, maid, driver) do you have?","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"MHI {..,sigma 'Total' subtotal()}",banner,"(MHI) What is your gross monthly household income? </font><font color=&apos;#008000&apos;><i>Consider <b><u>ALL</u></b> earning household members</i></font>","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"FINAL_SEC {..,sigma 'Total' subtotal()}",banner,"(FINAL_SEC) FI to assess based on final judgment </font><font color=&apos;#008000&apos;>Do not show screen to respondent</font>","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"BEO_USAGE_P12M {..,sigma 'Total' subtotal()}",banner,"(BEO_USAGE_P12M) Total Eat-Out Usage of BEO CHICKEN SANDWICH, P12M","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"BEO_USAGE_P6M {..,sigma 'Total' subtotal()}",banner,"(BEO_USAGE_P6M) Total Eat-Out Usage of BEO CHICKEN SANDWICH, P6M","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"BEO_USAGE_P3M {..,sigma 'Total' subtotal()}",banner,"(BEO_USAGE_P3M) Total Eat-Out Usage of BEO CHICKEN SANDWICH, P3M","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"BEO_USAGE_P4W {..,sigma 'Total' subtotal()}",banner,"(BEO_USAGE_P4W) Total Eat-Out Usage of BEO CHICKEN SANDWICH, P4W","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"CATEGORY_TRIGGERS {..,sigma 'Total' subtotal()}",banner,"(CATEGORY_TRIGGERS) Category Triggers","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"CATEGORY_BARRIERS {..,sigma 'Total' subtotal()}",banner,"(CATEGORY_BARRIERS) Category Barriers","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"CATEGORY_FREQUENCY {..,sigma 'Total' subtotal(),mean 'Mean' mean()}",banner,"(CATEGORY_FREQUENCY) Category Frequency","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"CATEGORY_CHANNELS {..,sigma 'Total' subtotal()}",banner,"(CATEGORY_CHANNELS) Category Purchase Channel","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"CATEGORY_OCCASIONS {..,sigma 'Total' subtotal()}",banner,"(CATEGORY_OCCASIONS) Category Occasions","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"NBS_BEO {..,sigma 'Total' subtotal()}",banner,"(NBS_BEO) Need based Salience BEO FRIED CHICKEN","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"UN_AWARE {..,sigma 'Total' subtotal()}",banner,"(UN_AWARE) Unaided Brand Awareness","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"TOM_UN_WARE.coding {..,sigma 'Total' subtotal()}",banner,"(TOM_UN_WARE.coding) TOP OF MIND FOR UNAWARE","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"AWARE_MOTHERBRAND {..,sigma 'Total' subtotal()}",banner,"(AWARE_MOTHERBRAND) Aided Brand Awareness (Mother Brand)","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"AWARE_VARIANT {..,sigma 'Total' subtotal()}",banner,"(AWARE_VARIANT) Aided Brand Awareness (Variant-level)","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"EVER_USED {..,sigma 'Total' subtotal()}",banner,"(EVER_USED) Brand ever used","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"BRAND_USE_P12M {..,sigma 'Total' subtotal()}",banner,"(BRAND_USE_P12M) Total BRAND Usage, P12M","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"BRAND_USE_P6M {..,sigma 'Total' subtotal()}",banner,"(BRAND_USE_P6M) Total BRAND Usage, P6M","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"BRAND_USE_P3M {..,sigma 'Total' subtotal()}",banner,"(BRAND_USE_P3M) Total BRAND Usage, P3M","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"BRAND_USE_P4W {..,sigma 'Total' subtotal()}",banner,"(BRAND_USE_P4W) Total BRAND Usage, P4W","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"BUMO_BRAND {..,sigma 'Total' subtotal()}",banner,"(BUMO_BRAND) Brands Used Most Often","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"REASON_BUMO {..,sigma 'Total' subtotal()}",banner,"(REASON_BUMO) Reasons for BUMO","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"BUMO_NOT_AV {..,sigma 'Total' subtotal()}",banner,"(BUMO_NOT_AV) BUMO not available","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"Q715201 {..,sigma 'Total' subtotal()}",banner,"(Q715201) QUESTION LABEL FOR BUMO NOT AV FF","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"Q715202 {..,sigma 'Total' subtotal()}",banner,"(Q715202) ANSWER LIST FOR BUMO NO AV FF","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"BUMO_NOT_AV_FF {..,sigma 'Total' subtotal()}",banner,"(BUMO_NOT_AV_FF) BUMO not available follow up","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"FAV_BRAND {..,sigma 'Total' subtotal()}",banner,"(FAV_BRAND) Favorite Brand","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"REASON_FAV {..,sigma 'Total' subtotal()}",banner,"(REASON_FAV) Reasons for Favorite","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"TRIGGERS_BRAND {..,sigma 'Total' subtotal()}",banner,"(TRIGGERS_BRAND) Triggers for PURCHASING and CONSUMING BRAND CHICKEN BURGER / SANDWICH","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"FREQUENCY_BRAND_1 {..,sigma 'Total' subtotal()}",banner,"(FREQUENCY_BRAND_1) Frequency of CONSUMING","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"BBLAST {..,sigma 'Total' subtotal()}",banner,"(BBLAST) Brand Ate Last","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"BBLAST_CHANNEL {..,sigma 'Total' subtotal()}",banner,"(BBLAST_CHANNEL) Brand Purchase Channel","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"BBLAST_COMPANION {..,sigma 'Total' subtotal()}",banner,"(BBLAST_COMPANION) Companion while CONSUMING [BRAND]","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"BBLAST_SPEND {..,sigma 'Total' subtotal()}",banner,"(BBLAST_SPEND) Usual Spending (BRAND)","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"NTC_BBPR {..,sigma 'Total' subtotal()}",banner,"(NTC_BBPR) nan","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"BBLAST_PAIRING {..,sigma 'Total' subtotal()}",banner,"(BBLAST_PAIRING) BEO Chicken Sandwich Pairing","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"BBLAST_OCCASION {..,sigma 'Total' subtotal()}",banner,"(BBLAST_OCCASION) Brand Occasion","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"BRAND_LAPSERS {..,sigma 'Total' subtotal()}",banner,"(BRAND_LAPSERS) Reason for Lapsed Usage of CHICKEN BURGER / SANDWICH PRODUCTS P3M","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"BRAND_BARRIERS_P12M {..,sigma 'Total' subtotal()}",banner,"(BRAND_BARRIERS_P12M) Reasons for not Eating CHICKEN BURGER / SANDWICH in P12M","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"IMA_IMPORTANCE {..,sigma 'Total' subtotal()}",banner,"(IMA_IMPORTANCE) Imagery – Importance of attributes","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"IMAGERY {..,sigma 'Total' subtotal()}",banner,"(IMAGERY) Brand Imagery","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"LIKES_JBCSW.coding {..,sigma 'Total' subtotal()}",banner,"(LIKES_JBCSW.coding) nan","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"DISLIKES_JBCSW.coding {..,sigma 'Total' subtotal()}",banner,"(DISLIKES_JBCSW.coding) nan","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"PREMIUM_CHARACTERISTICS.coding {..,sigma 'Total' subtotal()}",banner,"(PREMIUM_CHARACTERISTICS.coding) nan","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
+	fnAddTable(TableDoc,"BUDGET_CHARACTERISTICS.coding {..,sigma 'Total' subtotal()}",banner,"(BUDGET_CHARACTERISTICS.coding) nan","nan")
+'	.Item[.count-1].Rules.Addnew(0,0)
+
